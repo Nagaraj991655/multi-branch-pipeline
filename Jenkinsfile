@@ -14,7 +14,7 @@ pipeline {
           }
           stage('deploy') {
             steps {
-                echo 'Current branch: ${env.BRANCH_NAME}'
+                echo "Current branch: ${env.BRANCH_NAME}"
                 }
           }
        }
